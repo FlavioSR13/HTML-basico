@@ -1,7 +1,7 @@
 <script>
-nota1 = parsefloat(prompt("informa 1a nota"));
-nota2 = parsefloat(prompt("informa 2a nota"));
-nota3 = parsefloat(prompt("informa 3a nota"));
+nota1 = parseFloat(prompt("informa 1a nota"));
+nota2 = parseFloat(prompt("informa 2a nota"));
+nota3 = parseFloat(prompt("informa 3a nota"));
 media = (nota1 + nota2 + nota3) / 3;
 document.write("Média: " + media + "<br>");
 if(media >= 6)
